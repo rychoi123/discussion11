@@ -16,7 +16,7 @@ function hideInstructions(){
     console.log(this);
     let questions = doument.querySelectorAll(".question");
     for(let question of questions){
-     questions.classList.toggle("hidden");      
+     question.classList.toggle("hidden");      
     }
 
     if(this.innerHTML === "Hide Instructions"){
